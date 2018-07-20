@@ -1,0 +1,139 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+#w90{
+  padding: 10px 50px;
+}
+#menu{
+  display: inline;
+  float: right;
+}
+.nav-bar{
+  float: left;
+  padding: 35px 20px 0px;
+}
+.nav-bar:hover{
+  border-top: 5px solid red;
+  color: grey;
+  padding: 30px 20px 0px;
+}
+#login{
+  background-repeat: no-repeat;
+  float: left;
+  padding-top: 5px;
+}
+#login:hover{
+  box-sizing: border-box;
+  border-top: 5px solid red;
+  background-repeat: no-repeat;
+  padding-top: 0px;
+}
+#grey:hover{
+  filter: opacity(50%);
+}
+#menu1{
+  text-align: center;
+  display: none;
+}
+#stripes{
+  display: none;
+}
+@media only screen and (max-width: 1300px){
+  #menu{
+    display: none;
+  }
+  #stripes{
+    display: inline;
+    float: right;
+    padding: 10px 20px;
+  }
+  #menu1{
+    text-align: left;
+  }
+  #menu1 li{
+    padding: 25px 50px;
+  }
+  .nav-bar1:hover{
+    color: grey;
+  }
+  #menu1 li:hover{
+    background-color: lightgrey;
+    border-radius: 5px;
+  }
+  #login1{
+    padding: 0;
+  }
+  /* reasons */
+}
+@media only screen and (min-width: 1300px){
+  nav{
+    width: 1200px;
+    margin: auto;
+  }
+  #menu1{
+    display: none;
+  }
+  /* reasons */
+
+}
+@media only screen and (max-width: 500px){
+  #red-one{
+    margin-top: 90px;
+  }
+}
+#red-one{
+  background: url(pictures/gradient.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  color: #FFF;
+}
+#palms{
+  float: none;
+  background: url(pictures/palms.png) no-repeat center;
+  background-size: auto;
+  -webkit-background-size: cover;
+}
+#add{
+  padding-left: 120px;
+}
+#front1{
+  margin: auto;
+  display: block;
+}
+#front2{
+  margin: auto;
+  display: block;
+}
+h1{
+  border-top: 0.5px solid grey;
+  text-align: center;
+  font-size: 3.5em;
+  padding: 50px;
+  font-weight: normal;
+}
+
+.together{
+  font-size: 1.5em;
+  text-align: center;
+  width: 1150px;
+  max-width: 90%;
+}
+.reasons{
+  width: 300px;
+  padding: 20px;
+  float: left;
+}
+.border{
+  padding: 2px;
+  border: 1px solid #000;
+}
+.together{
+  margin: auto;
+  display: block;
+}

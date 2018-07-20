@@ -1,0 +1,23 @@
+#empty{
+    height: 50px;
+}
+img{
+  display: block;
+  margin: auto;
+}
+form{
+  display: block;
+  margin-left: 50%;
+  position: relative;
+  right: 150px;
+  border: 1px solid grey ;
+  width: 252px;
+  font-size: 0.8em;
+  padding: 30px 25px 0px 20px;
+}
+#window-login{
+  margin: 0px 0px 50px 50px;
+}
+.width-input{
+  width: 94%;
+}
