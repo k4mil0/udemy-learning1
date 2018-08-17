@@ -36,7 +36,20 @@ li:hover{
 }
 p{
 	width: 70%;
-	font-size: 20px;
+	font-family: courier-new;
+	font-size: 35px;
 	margin: auto;
 	padding-top: 50px;
+	color:#e0e0eb;
+}
+#main{
+	
+	background-color: #329a77;
+	border-radius: 5px 50px;
+}
+img{
+	position: relative;
+	bottom: 220px;
+	width: 100%;
+	z-index: -1;
 }
